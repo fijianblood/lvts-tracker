@@ -1,0 +1,4 @@
+# Test values for LOCAL development only (npm run dev + npm test).
+# Copy this file to .dev.vars. Never use these values on your real Worker.
+PHONE_PASSWORD="phone-test-pass-123"
+ACCESS_KEY="test-access-key-abcdefghijklmnop"

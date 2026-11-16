@@ -1,0 +1,16 @@
+{
+  "name": "lvts-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Track your vehicle with your phone and ask Claude where it is. A Cloudflare Worker MCP server, made in Fiji by LvTS.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local --port 8787 --ip 127.0.0.1 --test-scheduled",
+    "test": "node tests/e2e.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.162.0"
+  }
+}
